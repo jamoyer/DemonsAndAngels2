@@ -8,6 +8,12 @@ import java.util.List;
 
 import com.googlecode.lanterna.terminal.Terminal;
 
+/**
+ * A class for static utility methods having to do with the lanterna library.
+ *
+ * @author Jacob Moyer
+ *
+ */
 public class LanternaUtil
 {
     /**
@@ -28,6 +34,72 @@ public class LanternaUtil
         for (final char c : text.toCharArray())
         {
             term.putCharacter(c);
+        }
+    }
+
+    /**
+     * Returns the index of the center row for the given terminal.
+     *
+     * @param term
+     * @return
+     */
+    public static int getTerminalCenterRow(final Terminal term)
+    {
+        return (term.getTerminalSize().getRows() - 1) / 2;
+    }
+
+    /**
+     * Returns the index of the center column for the given terminal.
+     *
+     * @param term
+     * @return
+     */
+    public static int getTerminalCenterColumn(final Terminal term)
+    {
+        return (term.getTerminalSize().getColumns() - 1) / 2;
+    }
+
+    /**
+     * Draws a border made of the border character around the edge of the terminal.
+     *
+     * @param term
+     * @param border
+     */
+    public static void drawBorder(final Terminal term, final char border)
+    {
+        final int numCols = term.getTerminalSize().getColumns();
+        final int numRows = term.getTerminalSize().getRows();
+        if (numCols <= 0 || numRows <= 0)
+        {
+            return;
+        }
+
+        // draw top border
+        for (int col = 0; col < numCols; col++)
+        {
+            term.moveCursor(col, 0);
+            term.putCharacter(border);
+        }
+
+        // draw bottom border
+        for (int col = 0; col < numCols; col++)
+        {
+            term.moveCursor(col, numRows - 1);
+            term.putCharacter(border);
+        }
+
+        // draw left border
+        for (int row = 1; row < numRows - 1; row++)
+        {
+            term.moveCursor(0, row);
+            term.putCharacter(border);
+        }
+
+        // draw right border
+        for (int row = 1; row < numRows - 1; row++)
+        {
+            term.moveCursor(numCols - 1, row);
+            term.putCharacter(border);
         }
     }
 

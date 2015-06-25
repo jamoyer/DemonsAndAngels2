@@ -111,6 +111,9 @@ public class Main
 
     public void doAboutScreen()
     {
+        /*
+         * Read the about screen
+         */
         char[][] aboutDisplay = null;
         try
         {
@@ -122,11 +125,21 @@ public class Main
             System.exit(1);
         }
 
+        /*
+         * Draw a border
+         */
+        LanternaUtil.drawBorder(TERMINAL, 'X');
+
+        /*
+         * Write the about screen in the center of the terminal.
+         */
         if (aboutDisplay != null && aboutDisplay.length != 0)
         {
+            final int centerRow = LanternaUtil.getTerminalCenterRow(TERMINAL);
+            final int centerCol = LanternaUtil.getTerminalCenterColumn(TERMINAL);
             for (int i = 0; i < aboutDisplay.length; i++)
             {
-                LanternaUtil.termPrint(TERMINAL, new String(aboutDisplay[i]), 0, i);
+                LanternaUtil.termPrint(TERMINAL, new String(aboutDisplay[i]), centerCol - (aboutDisplay[i].length - 1) / 2, centerRow - (aboutDisplay.length - 1) / 2 + i);
             }
         }
         else
