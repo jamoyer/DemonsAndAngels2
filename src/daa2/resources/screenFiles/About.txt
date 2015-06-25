@@ -1,0 +1,24 @@
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X       ______   _______  _______  _______  _        _______      __          X
+X      (  __  \ (  ____ \(       )(  ___  )( (    /|(  ____ \    /__\         X
+X      | (  \  )| (    \/| () () || (   ) ||  \  ( || (    \/   ( \/ )        X
+X      | |   ) || (__    | || || || |   | ||   \ | || (_____     \  /         X
+X      | |   | ||  __)   | |(_)| || |   | || (\ \) |(_____  )    /  \/\       X
+X      | |   ) || (      | |   | || |   | || | \   |      ) |   / /\  /       X
+X      | (__/  )| (____/\| )   ( || (___) || )  \  |/\____) |  (  \/  \       X
+X      (______/ (_______/|/     \|(_______)|/    )_)\_______)   \___/\/       X
+X       _______  _        _______  _______  _        _______    _______       X
+X      (  ___  )( (    /|(  ____ \(  ____ \( \      (  ____ \  / ___   )      X
+X      | (   ) ||  \  ( || (    \/| (    \/| (      | (    \/  \/   )  |      X
+X      | (___) ||   \ | || |      | (__    | |      | (_____       /   )      X
+X      |  ___  || (\ \) || | ____ |  __)   | |      (_____  )    _/   /       X
+X      | (   ) || | \   || | \_  )| (      | |            ) |   /   _/        X
+X      | )   ( || )  \  || (___) || (____/\| (____/\/\____) |  (   (__/\      X
+X      |/     \||/    )_)(_______)(_______/(_______/\_______)  \_______/      X
+X                                                                             X
+X                                About                                        X
+X      Developers:         Demons & Angels 2          Accredited Resources:   X
+X      Jacob Moyer          Started 2015 - ?          LANTERNA                X
+X                                                     patorjk.com             X
+X                                                                             X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
